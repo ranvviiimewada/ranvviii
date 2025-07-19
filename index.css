@@ -1,0 +1,266 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.menu{
+display: flex;   
+justify-content: center; 
+width: 100%;
+height: 80px;
+align-items: center;
+} 
+
+
+
+.menu :hover{
+transform: scale(1.1);
+background-color: coral;
+}
+
+
+
+#top{
+display: flex;
+justify-content: center;
+gap: 500px;
+}
+
+
+
+.topnav1{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+
+
+.topnav1 :hover{
+transform: scale(1.1);
+background-color: coral;
+}
+
+
+
+.topnav2{
+display: flex;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.topnav3{
+display: flex;
+justify-content: center ;
+align-items: center;
+gap: 20px;
+}
+
+
+
+.topnav4{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+.menu li{
+    list-style: none;
+width: 120px; ;
+height: 50px;
+background-color: rgb(252, 252, 250);
+margin: 5px;
+text-align: center;
+line-height: 50px;
+float: left;
+}
+
+
+
+.menu li a{
+color: black;
+display: block;
+text-decoration: none;
+}
+
+
+
+.new{
+display: flex;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif; ;
+font-size: large;
+}
+
+
+
+#container{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 500px;
+background-color:white;
+border-color:black;
+}
+
+
+
+#container div{
+height: 450px;
+width: 400px;
+margin: 50pxpx;
+text-align: end;
+border:1px solid black;
+background-color:white;
+box-decoration-break: initial;
+box-shadow: gray;
+padding: 5px;
+box-shadow: -10px -15px 50px 0px gray;
+transition: 1s;            
+}
+
+
+
+
+#container .box1 .box2 .box3 .box4{
+width: 400;
+height: 300;
+}
+
+
+
+
+#container div:hover{
+transform: scale(1.1);
+border-radius: 20px;
+box-shadow: 10px;
+}
+
+
+
+
+#container2{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 500px;
+background-color:white;
+border-color: black;
+box-shadow: -10px -15px 50px 0px gray;
+}
+
+
+
+#container2 div{
+height: 450px;
+width: 400px;
+margin: 50pxpx;
+text-align: end;
+border:1px solid black;
+background-color:white;
+box-decoration-break: initial;
+box-shadow: black;
+padding: 5px;        
+transition: 1s;    
+}
+
+
+
+
+#container2 div:hover{
+transform: scale(1.1);
+border-radius: 20px;
+box-shadow: 10px;
+
+}
+
+
+
+
+#container2 .box1 .box2 .box3 .box4{
+width: 400;
+height: 300;
+}
+
+
+
+
+#container .box1{
+  
+  background-image: url(./polo.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#container .box2{
+    
+  background-image: url(./pololevis.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#container .box3{
+    
+  background-image: url(./firstcry.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#container .box4{
+    
+  background-image: url(./firstcry2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+#container2 .box1{
+  
+  background-image: url(./SUIT.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+#container2 .box2{
+    
+  background-image: url(./suit2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+#container2 .box3{
+    
+  background-image: url(./4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+#container2 .box4{
+    
+  background-image: url(./5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
