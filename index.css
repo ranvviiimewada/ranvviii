@@ -273,10 +273,6 @@ height: 300;
 
 @media(max-width:430px){
 
-  
-
-
-
 .topnav3{
   display: none;
 }
@@ -290,10 +286,11 @@ grid-row: 2;
 }
 
 
-
-
-
-
-
   
+}
+
+@media(min-width:431px) and (max-width:768px){
+
+
+
 }
